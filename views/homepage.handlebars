@@ -1,0 +1,19 @@
+{{#each blogs as |blog|}}
+  <div class='card border-dark shadow mb-3'>
+    <div class='card-header bg-dark text-white'>
+      <div class="row">
+        <div class="col-md-8">
+          {{blog.title}}
+        </div>
+        <div class="col-md-4">
+          <p class="text-sm text-right ">Posted by {{blog.user.name}} on {{blog.createdAt}}</p>
+        </div>
+      </div>
+      
+      </div>
+    <div class='card-body'>
+      <p class='card-text'>{{blog.content}}</p>
+    </div>
+    {{! still need to add the user and created date }}
+  </div>
+{{/each}}
