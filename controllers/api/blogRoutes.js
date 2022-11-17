@@ -20,6 +20,7 @@ router.get('/createblog', withAuth, async (req, res) => {
   }
 });
 
+// localhost:3001/api/blogs/editblog via userId
 router.get('/editblog/:id', withAuth, async (req, res) => {
 
   try {
@@ -40,6 +41,7 @@ router.get('/editblog/:id', withAuth, async (req, res) => {
   }
 });
 
+// localhost:3001/api/dashboard/put blogs via userId
 router.post('/createpost', withAuth, async (req, res) => {
   try {
     const newBlog = await Blog.create({

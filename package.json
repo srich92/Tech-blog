@@ -20,6 +20,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
+    "inquirer": "^9.1.4",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5",
     "watch": "^1.0.2"
@@ -28,5 +29,13 @@
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
     "prettier": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srich92/Tech-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srich92/Tech-blog/issues"
+  },
+  "homepage": "https://github.com/srich92/Tech-blog#readme"
 }
